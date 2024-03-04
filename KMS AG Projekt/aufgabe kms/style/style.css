@@ -1,0 +1,59 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-image: url("/images/IMG_4010.JPG");
+    background-position: center;
+    background-size: cover;
+}
+.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+}
+.navigation li{
+    display: inline-block;
+    padding: 20px;
+}
+li a{
+    text-decoration: none;
+    color: lightgray;
+    
+}
+li a:hover{
+    color: white;
+}
+.container{
+    box-sizing: border-box;
+    background-color:background-color: rgba(255,255,255,0.1);
+    margin: 50px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px
+        lightgray;
+    color: lightgray;
+}
+.list1{
+    list-style-type: circle;
+    margin-left: 0;
+}
+.list1 li{
+    padding: 6px;
+}
+.list2{
+    list-style-type: circle;
+    margin-left: 0; 
+}
+.list2 li{
+    padding: 6px;
+}
+.list3{
+    list-style-type: circle;
+    margin-left: 0; 
+}
+.list3 li{
+    padding: 6px;
+}

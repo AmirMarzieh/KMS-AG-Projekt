@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    background-color: black;
+    background-image: url("/images/IMG_4010.JPG");
+    background-size: cover;
+    background-size: cover
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255,255,255,0.1);
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 25px;
+}
+li a{
+    color: lightgray;
+    text-decoration: none;
+    padding: 10px;
+}
+li a:hover{
+    color: white;
+}
+.container{
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255,255,255,0.1);
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 5px lightgray;
+    
+    
+}
+.logo{
+    width: 120px; 
+    margin: auto;
+    display: block;
+    border: 2px solid lightgray;
+    border-radius: 50%;
+}
+.name{
+    color: white;
+    display: inline-block;
+    width: 92px;
+    border-bottom: 3px solid lightgray;
+    padding-top: 10px;
+    
+}
+.desc{
+    color: white;
+}
